@@ -1,0 +1,15 @@
+SHOW DATABASES;
+USE practice;
+SHOW TABLES;
+
+SELECT pro_name, pro_price 
+     FROM item_mast
+    WHERE pro_price >= 250
+ ORDER BY pro_price DESC, pro_name;
+       
+       
+       
+       
+       
+       
+       
